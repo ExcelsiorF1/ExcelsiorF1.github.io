@@ -108,19 +108,19 @@ body {
 
 @font-face {
   font-family: 'Myriadpro';
-  src: url(./myriadpro-regular.otf);
+  src: url(./fonts/myriadpro-regular.otf);
 }
 @font-face {
   font-family: 'Myriadpro-light';
-  src: url(./myriadpro-light.otf);
+  src: url(./fonts/myriadpro-light.otf);
 }
 @font-face {
   font-family: 'Myriadpro-bold';
-  src: url(./myriadpro-bold.otf);
+  src: url(./fonts/myriadpro-bold.otf);
 }
 @font-face {
   font-family: 'Velocista';
-  src: url(./velocista.ttf);
+  src: url(./fonts/velocista.ttf);
 }
 
 
