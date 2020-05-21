@@ -3,7 +3,7 @@ deployment:
   tasks:
     # !!Careful what you deploy!!
     # (don't use wildcard, can't deploy /.git/)
-    - export DEPLOYPATH=/home/user/public_html/
+    - export DEPLOYPATH=/home/excelsio1/public_html/
     # Add files in master to deployment
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp index.css $DEPLOYPATH
