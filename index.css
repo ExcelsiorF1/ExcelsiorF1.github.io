@@ -14,7 +14,6 @@ a:hover {
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
 }
@@ -35,8 +34,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
   text-align: justify;
   text-justify: inter-word;
 }
@@ -106,4 +103,36 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+
+@font-face {
+  font-family: 'Myriadpro';
+  src: url(./myriadpro-regular.otf);
+}
+@font-face {
+  font-family: 'Myriadpro-light';
+  src: url(./myriadpro-light.otf);
+}
+@font-face {
+  font-family: 'Myriadpro-bold';
+  src: url(./myriadpro-bold.otf);
+}
+@font-face {
+  font-family: 'Velocista';
+  src: url(./velocista.ttf);
+}
+
+
+#header {
+  font-family: 'Velocista', 'Myriadpro-bold', Arial, Helvetica, sans-serif;
+}
+
+#main {
+  font-family: 'Myriadpro', Helvetica, Arial, sans-serif;
+}
+
+#footer {
+  font-family: 'Myriadpro-light', Helvetica, Arial, sans-serif;
+  font-size: 11px;
 }
