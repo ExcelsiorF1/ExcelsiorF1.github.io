@@ -38,10 +38,6 @@ body {
   text-justify: inter-word;
 }
 
-.cover-container {
-  max-width: 42em;
-}
-
 
 /*
  * Header
@@ -91,6 +87,8 @@ body {
  */
 .cover {
   padding: 0 1.5rem;
+  max-width: 42rem;
+  align-self: center;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
