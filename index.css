@@ -130,6 +130,10 @@ body {
   font-family: 'Myriadpro', Helvetica, Arial, sans-serif;
 }
 
+#contact-link {
+  font-size: 20px;
+}
+
 #footer {
   font-family: 'Myriadpro-light', Helvetica, Arial, sans-serif;
   font-size: 11px;
