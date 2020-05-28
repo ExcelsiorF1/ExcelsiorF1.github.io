@@ -1,13 +1,19 @@
 ---
 deployment:
   tasks:
-    # !!Careful what you deploy!!
-    # (don't use wildcard, can't deploy /.git/)
+    ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ### !! CAUTION: DEPLOYMENT TO INTERNET !!
+    ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ## ! Don't use wildcard char
+    ##   Can't deploy folders like "/.git/"
+
+    # Specify DEPLOYPATH
     - export DEPLOYPATH=/home/excelsio1/public_html/
-    # Add files in master to deployment
+
+    # Deploy page html, css
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp index.css $DEPLOYPATH
-    # Add whole folders to deployment
+    # Deploy asset folders
     - /bin/cp -R fonts $DEPLOYPATH
     - /bin/cp -R logos $DEPLOYPATH
     - /bin/cp -R pictures $DEPLOYPATH
