@@ -138,3 +138,15 @@ body {
   font-family: 'Myriadpro-light', Helvetica, Arial, sans-serif;
   font-size: 11px;
 }
+
+b {
+  font-family: 'Myriadpro-bold', Helvetica, Arial, sans-serif;
+}
+
+i {
+  font-family: 'Myriadpro-light', Helvetica, Arial, sans-serif;
+}
+
+light {
+  font-family: 'Myriadpro-light', Helvetica, Arial, sans-serif;
+}
