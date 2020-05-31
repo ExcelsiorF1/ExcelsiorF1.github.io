@@ -1,4 +1,10 @@
 /*
+ *
+ * Bootstrap Code - Partially edited
+ * 
+ */
+ 
+/*
  * Globals
  */
 
@@ -103,7 +109,13 @@ body {
   color: rgba(0, 0, 0, .75);
 }
 
+/* 
+ *
+ * Excelsior Fully Custom Code
+ *
+ */
 
+/* Fonts */
 @font-face {
   font-family: 'Myriadpro';
   src: url(./fonts/myriadpro-regular.otf);
@@ -121,7 +133,7 @@ body {
   src: url(./fonts/velocista.ttf);
 }
 
-
+/* IDs */
 #header {
   font-family: 'Velocista', 'Myriadpro-bold', Arial, Helvetica, sans-serif;
 }
@@ -141,6 +153,7 @@ body {
   font-size: 11px;
 }
 
+/* Tags */
 b {
   font-family: 'Myriadpro-bold', Helvetica, Arial, sans-serif;
 }
