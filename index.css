@@ -118,19 +118,19 @@ body {
 /* Fonts */
 @font-face {
   font-family: 'Myriadpro';
-  src: url(./fonts/myriadpro-regular.otf);
+  src: url(./Fonts/myriadpro-regular.otf);
 }
 @font-face {
   font-family: 'Myriadpro-light';
-  src: url(./fonts/myriadpro-light.otf);
+  src: url(./Fonts/myriadpro-light.otf);
 }
 @font-face {
   font-family: 'Myriadpro-bold';
-  src: url(./fonts/myriadpro-bold.otf);
+  src: url(./Fonts/myriadpro-bold.otf);
 }
 @font-face {
   font-family: 'Velocista';
-  src: url(./fonts/velocista.ttf);
+  src: url(./Fonts/velocista.ttf);
 }
 
 /* IDs */
