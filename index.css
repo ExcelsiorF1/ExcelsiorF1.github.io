@@ -12,7 +12,7 @@
 a,
 a:focus,
 a:hover {
-  color: rgba(0, 0, 0, .4);
+  color: rgba(0, 0, 0, 1);
 }
 
 /* Custom default button */
@@ -143,9 +143,9 @@ body {
 }
 
 #contact-link {
-  font-size: 20px;
-  padding-right: 10px;
-  padding-bottom: 0px;
+  font-size: 30px;
+  padding: 10px;
+  color: rgba(0, 0, 0, .5);
 }
 
 #footer {
@@ -154,6 +154,10 @@ body {
 }
 
 /* Tags */
+body {
+  background-position: center;
+}
+
 b {
   font-family: 'Myriadpro-bold', Helvetica, Arial, sans-serif;
 }
