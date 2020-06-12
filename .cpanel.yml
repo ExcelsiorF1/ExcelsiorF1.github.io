@@ -13,7 +13,13 @@ deployment:
     # Deploy page html, css
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp index.css $DEPLOYPATH
+    - /bin/cp competition.html $DEPLOYPATH
+    - /bin/cp competition.css $DEPLOYPATH
+    - /bin/cp team.html $DEPLOYPATH
+    - /bin/cp team.css $DEPLOYPATH
+    - /bin/cp sponsorship.html $DEPLOYPATH
+    - /bin/cp sponsorship.css $DEPLOYPATH
     # Deploy asset folders
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R logos $DEPLOYPATH
-    - /bin/cp -R pictures $DEPLOYPATH
+    - /bin/cp -R Fonts $DEPLOYPATH
+    - /bin/cp -R Logos $DEPLOYPATH
+    - /bin/cp -R Backgrounds $DEPLOYPATH
