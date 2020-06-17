@@ -32,7 +32,6 @@ a:hover {
 html,
 body {
   height: 100%;
-background-color: rgb(100, 200, 200);
   background-size: cover;
 }
 
@@ -155,7 +154,11 @@ body {
 
 /* Tags */
 body {
+  background-image: url("./Backgrounds/Blue-Green_Gradient.png");
+  background-color: rgb(100, 200, 200);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 b {
