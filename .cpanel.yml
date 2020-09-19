@@ -4,8 +4,9 @@ deployment:
     ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     ### !! CAUTION: DEPLOYMENT TO INTERNET !!
     ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    ## ! Don't use wildcard char
-    ##   Can't deploy folders like "/.git/"
+    ## ! Don't use wildcard character -
+    ##    that would unnecessarily deploy
+    ##    folders like "/.git/"
 
     # Specify DEPLOYPATH
     - export DEPLOYPATH=/home/excelsio1/public_html/
@@ -13,12 +14,17 @@ deployment:
     # Deploy page html, css
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp index.css $DEPLOYPATH
+
     - /bin/cp competition.html $DEPLOYPATH
     - /bin/cp competition.css $DEPLOYPATH
+
     - /bin/cp team.html $DEPLOYPATH
     - /bin/cp team.css $DEPLOYPATH
+
     - /bin/cp sponsorship.html $DEPLOYPATH
     - /bin/cp sponsorship.css $DEPLOYPATH
+
+
     # Deploy asset folders
     - /bin/cp -R Fonts $DEPLOYPATH
     - /bin/cp -R Logos $DEPLOYPATH
