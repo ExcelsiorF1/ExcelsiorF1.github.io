@@ -153,15 +153,6 @@ body {
 }
 
 /* Tags */
-body {
-  background-image: url("./Backgrounds/Blue-Green_Gradient.png");
-  background-color: rgb(100, 200, 200);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 b {
   font-family: 'Myriadpro-bold', Helvetica, Arial, sans-serif;
 }
